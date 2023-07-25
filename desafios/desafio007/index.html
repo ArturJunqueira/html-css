@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+    <title>Desafio 07</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Você está vendo a imagem completa? Experimente apmliar o tamanho da sua janela para aproveitar a melhor experiência &#x1f92f;</p>
+
+    <picture>
+        <source media="(max-width: 566px)" srcset="image/itachi-450.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="image/itachi-516.jpg" type="image/jpg">
+        <img src="image/itachi.jpg" alt="imagem do itachi">
+    </picture>
+</body>
+</html>
